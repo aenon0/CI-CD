@@ -12,6 +12,7 @@ class main:
                     lst.append(str(i))
         return lst
     
+    
 obj = main()
 num = int(input())
 print(obj.fizzBuzz(num))
